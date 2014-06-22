@@ -94,10 +94,10 @@ module riotboard() {
 //	translate([85,-2,-3])					cube([15,6,3.1+PCB_thickness]);
 
 // J14 SDA
-// To remove change the first translate below to ([101,1.5,PCB_thickness])
+// To enable change the second translate below to ([99,-6,0])
 	hull() {
 		translate([101,-1,PCB_thickness])	cube([9.5,2,4]);
-		translate([99,-6,0])	cube([13.5,2,4+PCB_thickness*2]);
+		translate([99,-2,0])	cube([13.5,2,4+PCB_thickness*2]);
 	}
 // USB HUB2
 	hull() {
